@@ -94,7 +94,7 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [MOD:known]:  https://github.com/zer0Kerbal/SolarScience/wiki/Known-Issues
 [MOD:github:repo]:  https://github.com/zer0Kerbal/SolarScience/
 [MOD:changelog]: https://github.com/zer0Kerbal/SolarScience/Changelog.cfg
-[MOD:forum]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192456-*
+[MOD:forum]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192489-*
 
 <!--- release links -->
 [MOD:rel-github]:     https://github.com/zer0Kerbal/SolarScience/releases/latest "GitHub"  
