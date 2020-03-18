@@ -5,8 +5,9 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using KSP.Localization;
 
-namespace PraiseTheSun
+namespace SolarScience
 {
     //Inherit ModuleScienceExperiment stuff
     public class SolarExperimentKmi : ModuleScienceExperiment
@@ -15,9 +16,9 @@ namespace PraiseTheSun
 
         //link to a specific image from the AIA
         private string SunImageURL = "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIB.jpg";
-        private string sunImageBackup = @"Solar Science/Textures/latest_1024_HMIB";
-        public string blackImageURL = @"Solar Science/Textures/Black";
-        public string Open_SFX = @"Solar Science/Sounds/Open_KMI";
+        private string sunImageBackup = @"SolarScience/Plugins/Textures/latest_1024_HMIB";
+        public string blackImageURL = @"SolarScience/Plugins/Textures/Black";
+        public string Open_SFX = @"SolarScience/Plugins/Sounds/Open_KMI";
 
         private Texture2D imageOfSun;
         private Texture2D blackImage;
@@ -41,7 +42,8 @@ namespace PraiseTheSun
             else
             {
                 Debug.Log("[Solar Science] Triggered checkBody, returned false");
-                ScreenMessages.PostScreenMessage("This experiment only operates closely around Kerbol (the Sun) !", 3, ScreenMessageStyle.UPPER_CENTER);
+                // "This experiment only operates closely around Kerbol (the Sun) !"
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_000"), 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
@@ -61,7 +63,8 @@ namespace PraiseTheSun
             {
                 if (debugMode)
                     Debug.Log("[Solar Science] Triggered checkDirection, returned false");
-                ScreenMessages.PostScreenMessage("Point it towards Kerbol! You can't take the pictures if you aren't looking at it!", 3, ScreenMessageStyle.UPPER_CENTER);
+                // "Point it towards Kerbol! You can't take the pictures if you aren't looking at it!"
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_001"), 3, ScreenMessageStyle.UPPER_CENTER);
                 temp = false;
             }
 
@@ -84,7 +87,8 @@ namespace PraiseTheSun
                 if (debugMode)
                     Debug.Log("[Solar Science] Triggered checkAngularVelocity, returned false");
 
-                ScreenMessages.PostScreenMessage("Steady your craft! You'll make the pictures blurry!", 3, ScreenMessageStyle.UPPER_CENTER);
+                // "Steady your craft! You'll make the pictures blurry!"
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_002"), 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
@@ -148,7 +152,7 @@ namespace PraiseTheSun
                                 new DialogGUIHorizontalLayout(
                                     ),
 
-                                new DialogGUIButton("close",
+                                new DialogGUIButton(Localizer.Format("#SolarScience_closeBtn"), // "close"
                                     delegate
                                     {
                                         isShowingWindow = false;
