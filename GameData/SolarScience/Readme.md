@@ -185,9 +185,9 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [thread:cc]: https://forum.kerbalspaceprogram.com/index.php?/topic/91625-* "Contract Configurator"  
 
 
-[IMG:hero:0]: http://
+[IMG:hero:0]: https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/graphics/SolarScienceHero0.png
 [IMG:hero:1]: http://
-[IMG:hero:3]: http://
+[IMG:hero:2]: https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/graphics/SolarScience.png
 
 <!--
 this file: GPLv2
