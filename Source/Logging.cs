@@ -1,103 +1,103 @@
 using System;
-using System.Diagnostics;
-
+using UnityEngine;
 
 namespace PraiseTheSun
 {
-	public static class Log
-	{
+    internal static class Logging
+    {
+        internal enum LogType
+        {
+            INFO,
+            WARNING,
+            ERROR,
+            EXCEPTION
+        }
 
-		public enum LEVEL
-		{
-			OFF = 0,
-			ERROR = 1,
-			WARNING = 2,
-			INFO = 3,
-			DETAIL = 4,
-			TRACE = 5}
+        internal class Timer : IDisposable
+        {
+            private string _msg = string.Empty;
+            System.Diagnostics.Stopwatch _watch = null;
+            public Timer(string message)
+            {
+                _msg = message;
+                _watch = System.Diagnostics.Stopwatch.StartNew();
+            }
 
-		;
+            public void Dispose()
+            {
+                _watch.Stop();
+                DebugLog($"{_msg}: {_watch.ElapsedMilliseconds}ms");
+            }
 
-		public  static LEVEL level = LEVEL.INFO;
+            internal static Timer StartNew(string message)
+            {
+                return new Timer(message);
+            }
 
+            internal TimeSpan Elapsed()
+            {
+                return _watch.Elapsed;
+            }
+        }
 
-		public static LEVEL GetLevel ()
-		{
-			return level;
-		}
+        /// <summary>
+        /// Logs the provided message only if built in Debug mode
+        /// </summary>
+        /// <param name="msg">The object to log</param>
+        /// <param name="type">The type of message being logged (severity)</param>
+        internal static void DebugLog(object msg, LogType type = LogType.INFO)
+        {
+            bool shouldLog = false; // SolarScience.Instance?.Settings?.CurrentSaveSettings?.DebugLogging ?? false;
+#if DEBUG
+            shouldLog = true;
+#endif
+            if (shouldLog)
+            {
+                Log(msg, type);
+            }
+        }
 
-		public static void SetLevel (LEVEL level)
-		{
-			UnityEngine.Debug.Log ("log level " + level);
-			Log.level = level;
-		}
+        /// <summary>
+        /// Logs the provided message
+        /// </summary>
+        /// <param name="msg">The object to log</param>
+        /// <param name="type">The type of message being logged (severity)</param>
+        internal static void Log(object msg, LogType type = LogType.INFO)
+        {
+            string final = "[SolarScience] " + msg?.ToString();
+            if (type == LogType.INFO)
+            {
+                Debug.Log(final);
+            }
+            else if (type == LogType.WARNING)
+            {
+                Debug.LogWarning(final);
+            }
+            else if (type == LogType.ERROR)
+            {
+                Debug.LogError(final);
+            }
+            else if (type == LogType.EXCEPTION)
+            {
+                Exception ex;
+                if ((ex = msg as Exception) != null)
+                {
+                    LogException(ex);
+                }
+                else
+                {
+                    Debug.LogError(msg);
+                }
+            }
+        }
 
-		public static LEVEL GetLogLevel ()
-		{
-			return level;
-		}
-
-		private static bool IsLevel (LEVEL level)
-		{
-			return level == Log.level;
-		}
-
-		public static bool IsLogable (LEVEL level)
-		{
-			return level <= Log.level;
-		}
-
-		public static void Trace (String msg)
-		{
-			if (IsLogable (LEVEL.TRACE)) {
-				UnityEngine.Debug.Log (Constants.MODNAME+ ": " + msg);
-			}
-		}
-
-		public static void Detail (String msg)
-		{
-			if (IsLogable (LEVEL.DETAIL)) {
-				UnityEngine.Debug.Log (Constants.MODNAME+ ": " + msg);
-			}
-		}
-
-		[ConditionalAttribute ("DEBUG")]
-		public static void Info (String msg)
-		{
-			if (IsLogable (LEVEL.INFO)) {
-				
-				UnityEngine.Debug.Log (Constants.MODNAME + ": " + msg);
-			}
-		}
-
-		[ConditionalAttribute ("DEBUG")]
-		public static void Test (String msg)
-		{
-			//if (IsLogable(LEVEL.INFO))
-			{
-				UnityEngine.Debug.LogWarning (Constants.MODNAME + " TEST:" + msg);
-			}
-		}
-
-
-		public static void Warning (String msg)
-		{
-			if (IsLogable (LEVEL.WARNING)) {
-				UnityEngine.Debug.LogWarning (Constants.MODNAME+ ": " + msg);
-			}
-		}
-
-		public static void Error (String msg)
-		{
-			if (IsLogable (LEVEL.ERROR)) {
-				UnityEngine.Debug.LogError (Constants.MODNAME+ ": " + msg);
-			}
-		}
-
-		public static void Exception (Exception e)
-		{
-			Log.Error ("exception caught: " + e.GetType () + ": " + e.Message);
-		}
-
-	}
+        /// <summary>
+        /// Logs the provided Exception
+        /// </summary>
+        /// <param name="ex">The exception to log</param>
+        internal static void LogException(Exception ex)
+        {
+            Debug.LogException(ex);
+        }
+    }
 }

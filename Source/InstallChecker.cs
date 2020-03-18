@@ -14,7 +14,7 @@ using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
-namespace AnyRes
+namespace PraiseTheSun
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     internal class Startup : MonoBehaviour
@@ -40,8 +40,8 @@ namespace AnyRes
     [KSPAddon(KSPAddon.Startup.MainMenu, true)]
     internal class InstallChecker : MonoBehaviour
     {
-        internal const string MODNAME = "AnyRes Continued";
-        internal const string FOLDERNAME = "AnyRes";
+        internal const string MODNAME = "Solar Science";
+        internal const string FOLDERNAME = "SolarScience";
         internal const string EXPECTEDPATH = FOLDERNAME + "/Plugins";
 
         protected void Start()
