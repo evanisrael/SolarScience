@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1",
-  "label": "KSP",
+  "label": "Code",
   "labelColor": "darkblue",
-  "message": "1.7.3",
+  "message": "<.net 4.8> <Unity 2017> <C# 9.0>",
   "color": "66ccff",
   "style": "plastic"
 }
