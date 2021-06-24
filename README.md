@@ -98,7 +98,7 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 
 <!--- release links -->
 [MOD:rel-github]:     https://github.com/zer0Kerbal/SolarScience/releases/latest "GitHub"  
-[MOD:rel-spacedock]:  http://spacedock.info/mod/1746  "SpaceDock"  
+[MOD:rel-spacedock]:  https://spacedock.info/mod/811  "SpaceDock"  
 [MOD:rel-curseforge]: https://www.curseforge.com/kerbal/ksp-mods/solarscience "CurseForge"  
 [MOD:rel-ckan]:       https://forum.kerbalspaceprogram.com/index.php?/topic/154922-* "CKAN"
 
