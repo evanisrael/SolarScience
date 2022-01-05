@@ -12,7 +12,7 @@ updated: 2020 03 17
 
 # Solar Science (SS)  
 
-#### Adopted by [@zer0Kerbal][LINK:zer0Kerbal], originally by [Snoopy 20111 (@Snoopy20111)][LINK:snoopy20111]
+#### Adopted by [@zer0Kerbal][LINK:zer0Kerbal], originally by [@`Snoopy20111`][LINK:snoopy20111]
 
 ##### Salutations! May the sunlight always be upon you!
 
