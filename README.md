@@ -8,9 +8,16 @@ updated: 2020 03 17
  -->
 ### ***Download on [SpaceDock][MOD:rel-spacedock] or [Github][MOD:rel-github] or [CKAN][MOD:rel-ckan], or [Curseforge][MOD:rel-curseforge]***  
 
+
+
 # Solar Science (SS)  
+
 #### Adopted by [@zer0Kerbal][LINK:zer0Kerbal], originally by [Snoopy 20111 (@Snoopy20111)][LINK:snoopy20111]
+
 ##### Salutations! May the sunlight always be upon you!
+
+[![.NET](https://github.com/zer0Kerbal/SolarScience/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/zer0Kerbal/SolarScience/actions/workflows/dotnet.yml)
+
 ![Mod Version][shield:mod:latest] 
 ![KSP version][shield:ksp] ![KSP-AVC][shield:kspavc] ![License MIT][shield:license] ![][LOGO:mit]  
 ![SpaceDock][shield:spacedock] ![CKAN][shield:ckan] ![GitHub][shield:github] ![Curseforge][shield:curseforge]  
