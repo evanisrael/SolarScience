@@ -8,13 +8,13 @@ tags: changes,changelog,change-log,page,kerbal,ksp,zer0Kerbal,zedK
 
 <!-- 
 hdr-changelog.md v1.0.0.0
-Field Training Lab (FTL)
+Solar Science (SOL)
 created: 13 May 2022
 updated:
 CC BY-ND 4.0 by zer0Kerbal
 --># Changelog  
   
-| modName    | Field Training Lab (FTL)                                          |
+| modName    | Solar Science (SOL)                                          |
 | ---------- | ----------------------------------------------------------------- |
 | license    | GPLv3                                                             |
 | author     | Efour and zer0Kerbal                                              |
@@ -94,7 +94,7 @@ CC BY-ND 4.0 by zer0Kerbal
 ### Status
 
 * Issues
-  * closes #9 - Field Training Lab (FTL) 1.2.1.0-release `<EDITION>`
+  * closes #9 - Solar Science (SOL) 1.2.1.0-release `<EDITION>`
   * closes #10 - 1.2.1.0 Verify Legal Mumbo Jumbo
   * closes #11 - 1.2.1.0 Update Documentation
   * closes #12 - 1.2.1.0 Update Social Media
