@@ -1,8 +1,8 @@
 {
-    "NAME"           : "SolarScience",
+    "NAME"           : "Solar Science (SOL)",
     "URL"            : "https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/SolarScience.version",
     "DOWNLOAD"       : "https://github.com/zer0Kerbal/SolarScience/releases/latest",
-    "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/Changelog.cfg",
+    "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/Changelog.md",
     "GITHUB" :
     {
         "USERNAME"          : "zer0Kerbal",
