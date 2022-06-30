@@ -1,5 +1,5 @@
 <!-- Readme.md v1.0.2.0
-SolarScience (SS)
+Solar Science (SOL)
 created: 01 Oct 19
 updated: 2020 03 17
 
