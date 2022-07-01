@@ -205,7 +205,8 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [BOOM]: https://forum.kerbalspaceprogram.com/index.php?/topic/192938-*/ "KaboOom!"
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
 [ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*/ "On Demand Fuel Cells"
-[PT]: https://forum.kerbalspaceprogram.com/index.php?/topic/191428-*/ "ProbiTronics"  
+[PT]: https://forum.kerbalspaceprogram.com/index.php?/topic/191428-*/ "ProbiTronics"
+[BIO]: https://forum.kerbalspaceprogram.com/index.php?/topic/191426-*/ "Biomatic"
 
 [cc]: https://forum.kerbalspaceprogram.com/index.php?/topic/91625-*/ "Contract Configurator"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
