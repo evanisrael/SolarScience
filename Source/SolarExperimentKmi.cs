@@ -25,18 +25,14 @@
 #endregion
 
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
-using UnityEngine.UI;
+using System.Collections;
 using KSP.Localization;
-using KSP.UI.Screens.Flight.Dialogs;
 
 
 namespace SolarScience
 {
-    //Inherit ModuleScienceExperiment stuff
+    /// <summary>Inherit ModuleScienceExperiment stuff</summary>
     public class SolarExperimentKmi : ModuleScienceExperiment
     {
         public bool debugMode = false;
@@ -57,7 +53,8 @@ namespace SolarScience
         private bool internetConnection;
 
 
-        // Check if you're around the Sun and height from the surface, and if false post the message
+        /// <summary>Check if you're around the Sun and height from the surface, and if false post the message</summary>
+        /// <returns></returns>
         public bool CheckBody()
         {
             if (vessel.mainBody.name == "Sun" && vessel.mainBody.GetAltitude(vessel.CoM) <= 10000000000d)
@@ -70,12 +67,13 @@ namespace SolarScience
             {
                 Debug.Log("[Solar Science] Triggered checkBody, returned false");
                 // "This experiment only operates closely around Kerbol (the Sun) !"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_000"), 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-000"), 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
 
-        //Check if the instrument is pointing at least close to the sun
+        /// <summary>Check if the instrument is pointing at least close to the sun</summary>
+        /// <returns></returns>
         public bool CheckDirection()
         {
             bool temp;
@@ -91,7 +89,7 @@ namespace SolarScience
                 if (debugMode)
                     Debug.Log("[Solar Science] Triggered checkDirection, returned false");
                 // "Point it towards Kerbol! You can't take the pictures if you aren't looking at it!"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_001"), 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-001"), 3, ScreenMessageStyle.UPPER_CENTER);
                 temp = false;
             }
 
@@ -100,7 +98,8 @@ namespace SolarScience
             return temp;
         }
 
-        //Check if the Angular Velocity is less than .05
+        /// <summary>Check if the Angular Velocity is less than .05</summary>
+        /// <returns></returns>
         public bool CheckAngularVelocity()
         {
             if (vessel.angularVelocity.magnitude <= .05)
@@ -115,14 +114,15 @@ namespace SolarScience
                     Debug.Log("[Solar Science] Triggered checkAngularVelocity, returned false");
 
                 // "Steady your craft! You'll make the pictures blurry!"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_002"), 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-002"), 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
 
+        /// <summary>Attempt to load image from internet, if there is a connection</summary>
         public void LoadNewImage()
         {
-            //Attempt to load image from internet, if there is a connection
+            
             if (internetConnection)
             {
                 //If internet available, start loading image from internet
@@ -179,7 +179,7 @@ namespace SolarScience
                                 new DialogGUIHorizontalLayout(
                                     ),
 
-                                new DialogGUIButton(Localizer.Format("#SolarScience_closeBtn"), // "close"
+                                new DialogGUIButton(Localizer.Format("#SOL-closeBtn"), // "close"
                                     delegate
                                     {
                                         isShowingWindow = false;
@@ -200,18 +200,18 @@ namespace SolarScience
             }
         }
 
+        [Obsolete]
         private IEnumerator LoadThisFile()
         {
-            using (WWW www = new WWW(SunImageURL))
-            {
-                yield return www;
-                www.LoadImageIntoTexture(imageOfSun);
-            }
+            using WWW www = new(SunImageURL);
+            yield return www;
+            www.LoadImageIntoTexture(imageOfSun);
         }
 
+        [Obsolete]
         private IEnumerator CheckInternetConnection()
         {
-            WWW www = new WWW(SunImageURL);
+            WWW www = new(SunImageURL);
             yield return www;
 
             if (www.error != null)
@@ -250,7 +250,8 @@ namespace SolarScience
             }
         }
 
-        // If doing an action, check the booleans and act accordingly
+        /// <summary>If doing an action, check the booleans and act accordingly</summary>
+        /// <param name="p"></param>
         public void DeployAction(KSPActionParam p)
         {
             if (CheckBody() && CheckAngularVelocity() && CheckDirection())
