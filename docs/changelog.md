@@ -91,6 +91,8 @@ CC BY-ND 4.0 by zer0Kerbal
 * updates #31 - Code Localization
 * updates #22 - Simplified Chinese (简体中文) <zh-cn.cfg>
 
+
+		// #SOL-closeBtn = close
 ### Status
 
 * Issues
@@ -212,9 +214,13 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
+<<<<<<< Updated upstream
 ## Version  1.0.3.3
 
 =--- original ---=
+=======
+## Version = 1.1.1.0
+>>>>>>> Stashed changes
 
 * for Kerbal Space Program 1.6.1
 * Released on 2018-12-21
@@ -224,7 +230,11 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
+<<<<<<< Updated upstream
 ## Version 1.0.3.2
+=======
+## Version = 1.1.0.0
+>>>>>>> Stashed changes
 
 * for Kerbal Space Program 1.5.1
 * Released on 2018-10-30
@@ -233,7 +243,11 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
+<<<<<<< Updated upstream
 ## Version 1.0.3.1
+=======
+## Version = 1.0.6.0
+>>>>>>> Stashed changes
 
 * for Kerbal Space Program 1.3.1
 * Released on 2017-11-27
@@ -242,7 +256,11 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
+<<<<<<< Updated upstream
 ## Version 1.0.3
+=======
+## Version = 1.0.5.0
+>>>>>>> Stashed changes
 
 * for Kerbal Space Program 1.2.2
 * Released on 2016-11-03
@@ -251,7 +269,11 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
+<<<<<<< Updated upstream
 ## Version 1.0.2.1
+=======
+## Version = 1.0.4.0
+>>>>>>> Stashed changes
 
 * for Kerbal Space Program 1.2
 * Released on 2016-10-22
@@ -260,7 +282,11 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
+<<<<<<< Updated upstream
 ## Version 1.0.2
+=======
+## Version = 1.0.3.0
+>>>>>>> Stashed changes
 
 * for Kerbal Space Program 1.2
 * Released on 2016-10-16
@@ -269,15 +295,20 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
+<<<<<<< Updated upstream
 ## Version 1.0.1.0
 
 * for Kerbal Space Program 1.2
 * Released on 2016-10-12
+=======
+## Version = 1.0.2.0
+>>>>>>> Stashed changes
 
 * Co-Work with Field Training Facility Mod
 
 ---
 
+<<<<<<< Updated upstream
 ## Version 1.0.0.0
 
 * for Kerbal Space Program 1.2
@@ -293,5 +324,18 @@ CC BY-ND 4.0 by zer0Kerbal
 * Released on 2016-10-07
 
 * No changelog provided
+=======
+## Version = 1.0.1.0
+
+* Exact changes are unknown due to both poor record keeping and the unfortunate closure of Kerbal Stuff.
+* All changes were minor however, and only amounted to rebalancing values, editing a couple flags, etc.
+
+---
+
+## Version = 1.0.0.0
+
+* Initial release
+* no changelog provided
+>>>>>>> Stashed changes
 
 ---
