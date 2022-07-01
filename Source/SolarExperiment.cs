@@ -27,7 +27,7 @@ using KSP.Localization;
 
 namespace PraiseTheSun
 {
-//Inherit ModuleScienceExperiment stuff
+    /// <summary>Inherit ModuleScienceExperiment stuff</summary>
     public class SolarExperiment : ModuleScienceExperiment
     {
 
