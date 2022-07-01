@@ -24,14 +24,14 @@ updated: 03 Jun 2022
 ### Credits
 
 <ul>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/152350-*/"><img border="0" alt="Efour" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/set_resources_17/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png" width="50" height="50" > Efour</a> for creating the <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*/" alt="Solar Science (SOL)">Solar Science (SOL) addon!</a></li>
+  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/165967-*/"><img border="0" alt="Snoopy20111" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2016_06/5771ff9926cf7_ProfilePicture.jpg.c154b9b17f3c6a2f99652ce21070ab04.thumb.jpg.f5dd56a55af8f782aeb69cbb3fe0ac25.jpg" width="50" height="50" > Snoopy20111</a> for creating the <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*/" alt="Solar Science (SOL)">Solar Science (SOL) addon!</a></li>
   <li><i>Thank you to everyone who gave feedback! It's very important for me and highly appreciated.</i></li>
 </ul>
 
 ### Flag(s)
 
 <ul>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/"><img border="0" alt="zer0Kerbal" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2018_08/free-clipart-hithhikers-guide-14.thumb.jpg.05fc7d1bdc37ce2bfca8923bf1e97303.jpg" width="50" height="50" > zer0Kerbal</a></li>
+  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/165967-*/"><img border="0" alt="Snoopy20111" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2016_06/5771ff9926cf7_ProfilePicture.jpg.c154b9b17f3c6a2f99652ce21070ab04.thumb.jpg.f5dd56a55af8f782aeb69cbb3fe0ac25.jpg" width="50" height="50" > Snoopy20111</a></li>
 </ul>
 
 ### Agency
@@ -52,16 +52,12 @@ updated: 03 Jun 2022
 
 <ul>
   <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png " alt="English" style="zoom:150%;" /> English</li>
-  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/CH.png " alt="中文" style="zoom:150%;" /> Simplified Chinese (中文)</li> thank you [@JFYoung01](https://github.com/JFYoung01)
   <li><small>Additions and corrections welcome!</small></li>
 </ul>
 
 ### Art Asset(s)
 
-* 5-Star-rating-condensed
-  <img src="https://freesvg.org/img/16231559165-star-rating-condensed.png" alt="5-Star-rating-condensed" width="10%" height="10%">  
-  * [![Public Domain](https://img.shields.io/badge/License-CC%20Public%20Domain-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC Public Domain")][https://creativecommons.org/licenses/publicdomain/]
-  * https://freesvg.org/5-star-rating-condensed
+* none
 
 ---
 
@@ -73,9 +69,9 @@ updated: 03 Jun 2022
 </ul>
 
 <!-- links -->
-[FTL]: https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*/ "Field Training Lab"
+[SOL]: https://forum.kerbalspaceprogram.com/index.php?/topic/165967-*/ "Field Solar Science (SOL)"
 
-[Efour]: https://forum.kerbalspaceprogram.com/index.php?/profile/152350-*/ "Efour"
+[Snoopy20111]: https://forum.kerbalspaceprogram.com/index.php?/profile/152350-*/ "Snoopy20111"
 
 [cptkipard]: https://forum.kerbalspaceprogram.com/index.php?/profile/70516-*/ "Captain Kipard"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
