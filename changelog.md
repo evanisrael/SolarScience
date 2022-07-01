@@ -10,11 +10,6 @@
 | spacedock  | (https://spacedock.info/mod/811)                                  |
 | ckan       | SolarScience                                                      |
 
-<<<<<<< Updated upstream
-## Version 1.3.0.0 - `<Let the Sun Shine on KSP`>
-=======
-<<<<<<< Updated upstream
-=======
 ## Version 1.3.0.0 - `<Let the Sun Shine on KSP`>
 
 * 30 Jun 2020
@@ -25,20 +20,71 @@
 * Code
   * recompile for KSP 1.12.3
   * using .net 4.6.1
+  * remove
+    * [InstallChecker.cs]
+    * [AssemblyVersion.tt]
+    * [Log.cs]
+  * update [Version.tt]
   * make readonly
-  *         private readonly string SunImageURL = "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIB.jpg";
-        private readonly string sunImageBackup = @"SolarScience/Plugins/Textures/latest_1024_HMIB";
-        public readonly string blackImageURL = @"SolarScience/Plugins/Textures/Black";
-        public readonly string Open_SFX = @"SolarScience/Plugins/Sounds/Open_KMI";
-		
-        private readonly Texture2D blackImage;
+    * string SunImageURL
+    * string sunImageBackup
+    * string blackImageURL
+    * string Open_SFX
+    * Texture2D blackImage;
+
+### Localization
+
+* Add
+  * [readme.md] v2.1.2.0
+  * [quickstart.md] v1.0.1.1
+* closes #5 - English <us-en.cfg>
+* updates #4 - Localization - Master
+* Scrap Squad dictionary
+  * #SOL-closeBtn = close
+
+### License
+
+* Update to GPL-3.0
+  * was Expat/MIT
+* closes #29 - Update License to GPLv3
+
+### docs/
+
+* Add
+  * [Attribution.md] v1.0.6.0
+  * [ManualInstallation.md] v1.1.7.0
+  * [404-petunia.md]
+  * [LegalMumboJumbo.md] v1.0.5.0
+  * [Localizations.md] v1.1.3.1
+  * [Notices.md] v1.0.0.0
+  * [Why-not.md]
+  * [_config.yml]
+* closes #29 - add docs/
+
+### Convert Changelog
+
+* Convert from .cfg to md
+* Add missing information for earlier releases
+* closes #33 - Convert Changelog
+
+### Code
+
+* Recompile for KSP 1.12.3
+* Using .NET 4.6.1
 
 
-		// #SOL-closeBtn = close
+### Localization
+
+
+
 ### Status
 
 * Issues
-  * 
+  * closes #6 - ImgBot
+  * closes# 23 - Solar Science (SOL) 1.3.0.0-release - <`Let the Sun Shine on KSP`> edition
+  * closes# 24 - 1.3.0.0 Verify Legal Mumbo Jumbo
+  * closes# 25 - 1.3.0.0 Update Documentation
+  * closes# 26 - 1.3.0.0 Update Social Media
 
 ---
 
@@ -52,20 +98,7 @@
 ### Code
 
 * Code
-  * recompile for KSP 1.12.3
-  * using .net 4.6.1
-  * make readonly
-  *         private readonly string SunImageURL = "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIB.jpg";
-        private readonly string sunImageBackup = @"SolarScience/Plugins/Textures/latest_1024_HMIB";
-        public readonly string blackImageURL = @"SolarScience/Plugins/Textures/Black";
-        public readonly string Open_SFX = @"SolarScience/Plugins/Sounds/Open_KMI";
-		
-        private readonly Texture2D blackImage;
 
-### Status
-
-* Issues
-  * 
 
 ---
 
