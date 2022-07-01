@@ -1,8 +1,9 @@
-﻿/* Solar Science (SOL)
+﻿#region License Solar Science (SOL)
+/*
  * Solar Science is an add-on by Logan Hardin, also known as Snoopy 20111, for Kerbal Space Program by Squad.
  * "I would prefer to be referred to as Snoopy 20111 in any attributions. Let's be honest, I'm not going to track you down, I would just appreciate it."
  * Praise the Sun
- 
+ *
  * Copyright (C) 2015, 2016 Snoopy 20111 (Logan Hardin)
  * Copyright (C) 2019, 2022 zer0Kerbal (zer0Kerbal at hotmail dot com)
  * 
@@ -18,7 +19,8 @@
  * 
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
-*/
+ */
+#endregion
 
 using System.Reflection;
 using System.Runtime.CompilerServices;
