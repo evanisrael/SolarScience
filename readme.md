@@ -210,7 +210,6 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [cc]: https://forum.kerbalspaceprogram.com/index.php?/topic/91625-*/ "Contract Configurator"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
-[twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale""
 
 <!-- financial support -->
 [PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&logo=paypal&labelColor=FFDD00/ "PayPal"
