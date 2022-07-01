@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SolarScience",
+    "$kref":        "#/ckan/spacedock/811",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts",
+		"plugin",
+		"flags",
+		"agency",
+		"sound",
+		"science",
+		"career"
+    ],
+    "supports": [
+        { "name": "ContractConfigurator" },
+        { "name": "ModuleManager"        }
+    ],
+    "suggests": [
+        { "name": "Biomatic"              },
+        { "name": "Kaboom"                },
+        { "name": "GPOSpeedPump"          },
+        { "name": "ODFC"                  },
+        { "name": "ProbiTronics"          }
+    ]
+}
