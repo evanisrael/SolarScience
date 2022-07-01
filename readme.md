@@ -31,6 +31,8 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 Remember to Praise the Sun!
 
+When used, provides actual, up-to-date images directly from NASA from the real-world STEREO and SOHO spacecraft!
+
 ---
 
 ### See More
