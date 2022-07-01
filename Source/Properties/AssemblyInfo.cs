@@ -29,7 +29,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Solar Science (SOL)")]
-[assembly: AssemblyCopyright("Copyright (c) 2015, 2016 Snoopy 20111 (Logan Hardin)" (c) 2019, 2022 zer0Kerbal")]
+[assembly: AssemblyCopyright("Copyright (c) 2015, 2016 Snoopy 20111 (Logan Hardin) (c) 2019, 2022 zer0Kerbal")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
