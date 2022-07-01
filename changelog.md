@@ -20,6 +20,13 @@
 * Code
   * recompile for KSP 1.12.3
   * using .net 4.6.1
+  * make readonly
+  *         private readonly string SunImageURL = "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIB.jpg";
+        private readonly string sunImageBackup = @"SolarScience/Plugins/Textures/latest_1024_HMIB";
+        public readonly string blackImageURL = @"SolarScience/Plugins/Textures/Black";
+        public readonly string Open_SFX = @"SolarScience/Plugins/Sounds/Open_KMI";
+		
+        private readonly Texture2D blackImage;
 
 ### Status
 
