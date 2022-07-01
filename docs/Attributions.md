@@ -73,7 +73,7 @@ updated: 03 Jun 2022
 </ul>
 
 <!-- links -->
-[SOL]: https://forum.kerbalspaceprogram.com/index.php?/topic/165967-*/ "Field Solar Science (SOL)"
+[SOL]: https://forum.kerbalspaceprogram.com/index.php?/topic/192489-*/ "Field Solar Science (SOL)"
 
 [Snoopy20111]: https://forum.kerbalspaceprogram.com/index.php?/profile/152350-*/ "Snoopy20111"
 
