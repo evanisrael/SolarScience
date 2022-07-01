@@ -251,8 +251,6 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [Snoopy20111]: https://forum.kerbalspaceprogram.com/index.php?/profile/165967-*/ "Snoopy20111"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
-[IMG:flg:0]: https://via.placeholder.com/256x160png/ffffff/bada55?text=KGEx "Mini Sample Return Capsule Flag"
-
 ---
 
 #### Connect with me
