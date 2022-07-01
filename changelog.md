@@ -10,7 +10,41 @@
 | spacedock  | (https://spacedock.info/mod/811)                                  |
 | ckan       | SolarScience                                                      |
 
+<<<<<<< Updated upstream
 ## Version 1.3.0.0 - `<Let the Sun Shine on KSP`>
+=======
+<<<<<<< Updated upstream
+=======
+## Version 1.3.0.0 - `<Let the Sun Shine on KSP`>
+
+* 30 Jun 2020
+* Released for KSP 1.12.3
+
+### Code
+
+* Code
+  * recompile for KSP 1.12.3
+  * using .net 4.6.1
+  * make readonly
+  *         private readonly string SunImageURL = "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIB.jpg";
+        private readonly string sunImageBackup = @"SolarScience/Plugins/Textures/latest_1024_HMIB";
+        public readonly string blackImageURL = @"SolarScience/Plugins/Textures/Black";
+        public readonly string Open_SFX = @"SolarScience/Plugins/Sounds/Open_KMI";
+		
+        private readonly Texture2D blackImage;
+
+
+		// #SOL-closeBtn = close
+### Status
+
+* Issues
+  * 
+
+---
+
+>>>>>>> Stashed changes
+## Version 1.2.0.0 - `<Praise Snoopy 20111!>`
+>>>>>>> Stashed changes
 
 * 30 Jun 2020
 * Released for KSP 1.12.3
