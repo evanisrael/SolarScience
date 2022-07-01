@@ -19,7 +19,11 @@ updated: 15 May 2022 -->
 
 ## Parts Invoice
 
-This add-on adds nine (9) resource parts
+This add-on adds two (2) science parts
+
+* Both need to be in The Sun's (Kerbol) sphere of influence (SOI) and have the right end pointed at The Sun.
+* Using these parts will query NASA (the real world one) for the latest related image from either STEREO or SOHO.
+* Requires internet access for a image retrieval from NASA.
 
 ---
 
