@@ -79,16 +79,16 @@ CC BY-ND 4.0 by zer0Kerbal
 
 * Convert from .cfg to md
 * Add missing information for earlier releases
-* closes #33 - Convert Changelog
+* closes #28 - Convert Changelog
 
 ### Status
 
 * Issues
   * closes #6 - ImgBot
-  * closes# 23 - Solar Science (SOL) 1.3.0.0-release - <`Let the Sun Shine on KSP`> edition
-  * closes# 24 - 1.3.0.0 Verify Legal Mumbo Jumbo
-  * closes# 25 - 1.3.0.0 Update Documentation
-  * closes# 26 - 1.3.0.0 Update Social Media
+  * closes #23 - Solar Science (SOL) 1.3.0.0-release - <`Let the Sun Shine on KSP`> edition
+  * closes #24 - 1.3.0.0 Verify Legal Mumbo Jumbo
+  * closes #25 - 1.3.0.0 Update Documentation
+  * closes #26 - 1.3.0.0 Update Social Media
 
 ---
 
