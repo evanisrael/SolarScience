@@ -12,286 +12,190 @@ Solar Science (SOL)
 created: 13 May 2022
 updated:
 CC BY-ND 4.0 by zer0Kerbal
---># Changelog  
+-->﻿# Changelog  
   
-| modName    | Solar Science (SOL)                                          |
+| modName    | Solar Science (SOL)                                               |
 | ---------- | ----------------------------------------------------------------- |
-| license    | GPLv3                                                             |
-| author     | Efour and zer0Kerbal                                              |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*/) |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/FieldTrainingLab)       |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/FieldTrainingLab)     |
-| spacedock  | (https://spacedock.info/mod/971)                                  |
-| ckan       | FieldTrainingLab                                                  |
+| license    | GPL-3.0                                                           |
+| author     | Snoopy20111 and zer0Kerbal                                        |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/192489-*/) |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/SolarScience)           |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SolarScience)         |
+| spacedock  | (https://spacedock.info/mod/811)                                  |
+| ckan       | SolarScience                                                      |
 
-## Version 1.2.1.0-release - `<Clean Blackboards>` edition
+## Version 1.3.0.0 - `<Let the Sun Shine on KSP`>
 
-* 28 Jun 2022
-* For Kerbal Space Program [1.12.x]
-
-### License
-
-* Update to GPLv3
-  * was Expat/MIT
-* closes #32 - Update License to GPLv3
-
-### docs/
-
-* Add
-  * [Attribution.md] v1.0.6.0
-  * [ManualInstallation.md] v1.1.7.0
-  * [404-petunia.md]
-  * [LegalMumboJumbo.md] v1.0.5.0
-  * [Localizations.md] v1.1.3.1
-  * [Notices.md] v1.0.0.0
-  * [Why-not.md]
-  * [_config.yml]
-* closes #2 - Needs a wiki
-* closes #35 - add docs/
-
-### Convert Changelog
-
-* Convert from .cfg to md
-* Add missing information for earlier releases
-* closes #33 - Convert Changelog
+* 30 Jun 2020
+* Released for KSP 1.12.3
 
 ### Code
 
-* Recompile for KSP 1.12.3
-* Using .NET 4.6.1
-  * remove
-    * [InstallChecker.cs]
-    * [AssemblyVersion.tt]
-    * [Log.cs]
-  * update [Version.tt]]
-
-### Compatibility
-
-* Rename
-  * Patches to Compatibility
-* Update
-  * licenses
-  * [Kerbalism.cfg] v1.0.1.0
-    * fixes #34 - [Bug 🐞]: Kerbalism.cfg
-
-### Add
-
-* Agent
-* Flag
-  * 512x320
-  * 64x40 truecolor_scaled
-
-### Localization
-
-* Add
-  * [readme.md] v2.1.2.0
-  * [quickstart.md] v1.0.1.1
-* updates #14 - English <us-en.cfg>
-* updates #13 - Localization - Master
-* updates #31 - Code Localization
-* updates #22 - Simplified Chinese (简体中文) <zh-cn.cfg>
+* Code
+  * recompile for KSP 1.12.3
+  * using .net 4.6.1
+  * make readonly
+  *         private readonly string SunImageURL = "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIB.jpg";
+        private readonly string sunImageBackup = @"SolarScience/Plugins/Textures/latest_1024_HMIB";
+        public readonly string blackImageURL = @"SolarScience/Plugins/Textures/Black";
+        public readonly string Open_SFX = @"SolarScience/Plugins/Sounds/Open_KMI";
+		
+        private readonly Texture2D blackImage;
 
 ### Status
 
 * Issues
-  * closes #9 - Solar Science (SOL) 1.2.1.0-release `<EDITION>`
-  * closes #10 - 1.2.1.0 Verify Legal Mumbo Jumbo
-  * closes #11 - 1.2.1.0 Update Documentation
-  * closes #12 - 1.2.1.0 Update Social Media
-* Closes Duplicate Issues
-  * #1 - Localization
-  * #4 - :sparkles: **Localization** :sparkles:
-  * #5 - Localization - en-us.cfg (English)
-  * #6 - Localization - pt-br.cfg Brazil
-  * #7 - Localization - zh-cn.cfg - Simplified Chinese
-  * #8 - Update Field Training Laboratory (FTL)
+  * 
 
 ---
 
-## Version 1.2.0.0 - `<New Carpets! Automation Motivation Modernization>`
+## Version 1.2.0.0 - `<Praise Snoopy 20111!>`
 
-* 05 Apr 2020
-* KSP 1.9.1
-* .NET 4.8
-
-### Code
-
-* update
-  * Editor GetInfo() to be more informative
-  * include assembly version in PAW
-* Add
-  * game settings page
-  * ***disabled for now***
-    * game settings page
-    * global setting to enable/disable PAW color
-    * option to globally enable/disable
-    * option: use science and ratio
-    * option: use reputation and ratio
-    * option: use funds and ratio
-
----
-
-## Version = 1.1.0.0 - `<Automation Motivation Modernization>`
-
-* KSP 1.8.1 with .NET 4.8
-
-* isn't that enough? :D
-* started adding in JoyntMail :D
-
----
-
-## Version = 1.0.3.5 - `<Automation Motivation Modernization.`
-
-* KSP 1.7.3 with .NET 3.5
-
-### Code and Code Related  
-
-* updated / modernized .csproj
-* this preps mod for much easier releases
-  * added automation
-  * [Version.tt]
-  * [AssemblyVersion.tt]
-* moved
-  * into Properties/
-  * [AssemblyVersion.tt]
-* updated
-  * to v2 of InstallChecker.cs
-* moved Textures/
-  * -> Plugins/Textures/
-
-### Deployment and Backend
-
-* Update
-  * [Changelog.cfg]
-    * to include new Kerbal Changelog features
-    * [_deploy]
-    * [_buildRelease]
-  * [.gitattributes]
-  * [].gitignore]
-  * [*Readme.md]
-    * automated Readme.md -> Readme.htm
-    * Readme.htm now included in release
-    * Releases.layout.md
-* [CONTRIBUTING.md] now included in repository
-* [FieldTrainingLab.version] to be avc compliant
-* Added
-  * avc github checker and badge
-* Added
-  * json's
-
----
-
-## Verison 1.0.3.4.1 - `<stowaways be gone!>` edition
-
-* released Oct 1, 2019
-* for KSP 1.7.x
-* removed SimpleLogistics.dll that stowed away.
-
----
-
-## Version 1.0.3.4
+* Released for KSP 1.7.3
+* 18 Mar 2020
 
 ### Adoption by zer0Kerbal
+  
+### Initial release
+
+### License
+
+* license changed by original author to MIT (thank you @Snoopy 20111 )
 
 ### Code
 
-* Added
-  * PAW grouping (really needed for these mods)
-  * a blurb in the editor getInfo{}
-  * [InstallChecker.cs]
+* compiled with .NET 3.5
+* Internal code rewrite to improve maintainability
+  * combined two .dll's into one - still some optimization to be had
+  * added [Version.TT] and [AssemblyVersion.TT]
+  * added [InstallChecker.cs] 2.0.0.0
+  * added [Log.cs]
+  * lots of little changes
 
-### Compatibility
+### Localization
 
+* added
+  * Localization to code
+  * Localization to parts
+  * [en-us.cfg]
+
+### Assets
+
+* moved
+  * sounds into Plugins/
+  * textures into Plugins/
+
+### Deployment
+
+* added
+  * automated backend processes
+  * support infrastructure
+  * json's
 * Updated
-  * [FieldTrainingLab.cfg]
-    * now patches all parts with moduleScienceLab
-    * changed the [TrainingLab] to be [FieldTrainingLab]
-      * patches reflect this
-* Removed
-  * other patch
+  * GitHub
+  * SpaceDock
+  * Curseforge
+* New
+  * forum thread
+* Converted
+  * Kerbal Changelog
+
+### Parts
+
+* Reformatted
+  * all part cfg files
 
 ---
 
-## Version  1.0.3.3
+### Version = 1.1.1.0
 
-=--- original ---=
+* Released on 2020-03-17
+* for Kerbal Space Program 1.9.1
 
-* for Kerbal Space Program 1.6.1
-* Released on 2018-12-21
-
-* EFour's last release
-* Recompiled 1.6.0
-
----
-
-## Version 1.0.3.2
-
-* for Kerbal Space Program 1.5.1
-* Released on 2018-10-30
-
-* Recompiled for 1.5.1
+* License changed in preparation for handing the project over to a new author
+  * Updated the license
+    * from Creative Commons to MIT
 
 ---
 
-## Version 1.0.3.1
+### Version = 1.1.0.0
 
-* for Kerbal Space Program 1.3.1
-* Released on 2017-11-27
+* Released on  2018-08-03
+* for Kerbal Space Program 1.9.1
 
-* Recompiled KSP 1.3.1
+* Biggest update since 1.0!
+  * Running the experiment loads up the most recent image from the SOHO or STEREO spacecraft for the KMI and STEREO parts, respectively
+  * If you're not connected to the internet, there is a backup image
+  * Added original sound effects
+  * New experiment descriptions
 
 ---
 
-## Version 1.0.3
+### Version = 1.0.6.0
 
+* Released on  2017-05-31
+* for Kerbal Space Program 1.4.3
+
+* Grammar changes in some item descriptions
+* Otherwise identical to 1.05
+
+---
+
+### Version = 1.0.5.0
+
+* Released on 2016-11-05
 * for Kerbal Space Program 1.2.2
-* Released on 2016-11-03
 
-* Recompiled to 1.2.1
-
----
-
-## Version 1.0.2.1
-
-* for Kerbal Space Program 1.2
-* Released on 2016-10-22
-
-* KPBS support
+* No longer can you just be close to the sun and run the experiment...
+* you must also make sure your craft is steady and that the right end is pointed at Kerbol!
+* Textures have been converted to DDS, making Solar Science load in the blink of an eye!
 
 ---
 
-## Version 1.0.2
+### Version = 1.0.4.0
 
-* for Kerbal Space Program 1.2
-* Released on 2016-10-16
-
-* Calculating Dead and respawned kerbalnaut
-
----
-
-## Version 1.0.1.0
-
-* for Kerbal Space Program 1.2
-* Released on 2016-10-12
-
-* Co-Work with Field Training Facility Mod
-
----
-
-## Version 1.0.0.0
-
-* for Kerbal Space Program 1.2
-* Released on 2016-10-08
-
-* No changelog provided
-
----
-
-## Version 1.0.0.0
-
+* Released on  2016-11-05
 * for Kerbal Space Program 1.1.3
-* Released on 2016-10-07
 
-* No changelog provided
+* Rebuilt code to work in KSP 1.1
+* Moved instruments in the tech tree to make a bit more sense
+* Made instruments heavier
+
+---
+
+### Version = 1.0.3.0
+
+* Released on  2016-06-30
+* for Kerbal Space Program 1.0
+
+* THIS VERSION WORKS FOR KSP VERSIONS 1.0.5 BACK THROUGH .23.
+  * It may also work further back than that, but in that case use at your own risk.
+
+* Besides a few minor changes for polish
+  * this version is identical to 1.0.
+  * clearing useless files
+  * editing a flag or two
+  * item values
+  * etc
+* If you're looking for Solar Science 1.0 through 1.02
+* I removed them because people were downloading them very regularly, for some reason, even though this one is better.
+
+---
+
+### Version = 1.0.2.0
+
+* no changelog provided
+
+---
+
+### Version = 1.0.1.0
+
+* no changelog provided
+
+---
+
+### Version = 1.0.0.0
+
+* no changelog provided
 
 ---
