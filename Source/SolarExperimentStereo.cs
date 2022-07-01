@@ -1,10 +1,11 @@
 //This Experiment is for the STEREO
 
-/* Solar Science (SOL)
+#region License Solar Science (SOL)
+/*
  * Solar Science is an add-on by Logan Hardin, also known as Snoopy 20111, for Kerbal Space Program by Squad.
  * "I would prefer to be referred to as Snoopy 20111 in any attributions. Let's be honest, I'm not going to track you down, I would just appreciate it."
  * Praise the Sun
- 
+ *
  * Copyright (C) 2015, 2016 Snoopy 20111 (Logan Hardin)
  * Copyright (C) 2019, 2022 zer0Kerbal (zer0Kerbal at hotmail dot com)
  * 
@@ -20,13 +21,14 @@
  * 
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
-*/
+ */ 
+#endregion
 
 using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using KSP.Localization;
+//using KSP.Localization;
 
 namespace SolarScience
 {
@@ -36,10 +38,10 @@ namespace SolarScience
         public bool debugMode = false;
 
         //link to a specific image from the AIA
-        private string SunImageURL = "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_211193171.jpg";
-        private string sunImageBackup = @"SolarScience/Plugins/Textures/latest_1024_211193171";
-        public string blackImage = @"SolarScience/Plugins/Textures/Black";
-        public string Open_SFX = @"SolarScience/Plugins/Sounds/Open_STEREO";
+        private readonly string SunImageURL = "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_211193171.jpg";
+        private readonly string sunImageBackup = @"SolarScience/Plugins/Textures/latest_1024_211193171";
+        private readonly string blackImage = @"SolarScience/Plugins/Textures/Black";
+        private readonly string Open_SFX = @"SolarScience/Plugins/Sounds/Open_STEREO";
 
         private Texture2D imageOfSun;
         private AudioClip Open_SFX_Sound;
@@ -230,7 +232,7 @@ namespace SolarScience
         }
 
         // If deploying an Experiment, check the booleans and act accordingly
-        new public void DeployExperiment()
+        public void DeployExperiment()
         {
             if (CheckBody() && CheckAngularVelocity() && CheckDirection())
             {
@@ -247,7 +249,7 @@ namespace SolarScience
         }
 
         // If doing an action, check the booleans and act accordingly
-        new public void DeployAction(KSPActionParam p)
+        public void DeployAction(KSPActionParam p)
         {
             if (CheckBody() && CheckAngularVelocity() && CheckDirection())
             {
