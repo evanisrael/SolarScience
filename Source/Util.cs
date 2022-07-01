@@ -43,7 +43,7 @@ namespace SolarScience
             {
                 Debug.Log("[Solar Science] Triggered checkBody, returned false");
                 // "This experiment only operates closely around Kerbol (the Sun) !"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_000"), 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-000"), 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
@@ -64,7 +64,7 @@ namespace SolarScience
                 if (debugMode)
                     Debug.Log("[Solar Science] Triggered checkDirection, returned false");
                 // "Point it towards Kerbol! You can't take the pictures if you aren't looking at it!"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_001"), 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-001"), 3, ScreenMessageStyle.UPPER_CENTER);
                 temp = false;
             }
 
@@ -88,7 +88,7 @@ namespace SolarScience
                     Debug.Log("[Solar Science] Triggered checkAngularVelocity, returned false");
 
                 // "Steady your craft! You'll make the pictures blurry!"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_002"), 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-002"), 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
