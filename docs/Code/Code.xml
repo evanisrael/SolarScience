@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SolarScience</name>
+    </assembly>
+    <members>
+        <member name="T:SolarScience.SolarExperimentKmi">
+            <summary>Inherit ModuleScienceExperiment stuff</summary>
+        </member>
+        <member name="M:SolarScience.SolarExperimentKmi.CheckBody">
+            <summary>Check if you're around the Sun and height from the surface, and if false post the message</summary>
+            <returns></returns>
+        </member>
+        <member name="M:SolarScience.SolarExperimentKmi.CheckDirection">
+            <summary>Check if the instrument is pointing at least close to the sun</summary>
+            <returns></returns>
+        </member>
+        <member name="M:SolarScience.SolarExperimentKmi.CheckAngularVelocity">
+            <summary>Check if the Angular Velocity is less than .05</summary>
+            <returns></returns>
+        </member>
+        <member name="M:SolarScience.SolarExperimentKmi.LoadNewImage">
+            <summary>Attempt to load image from internet, if there is a connection</summary>
+        </member>
+        <member name="M:SolarScience.SolarExperimentKmi.OnStart(PartModule.StartState)">
+            <summary>On Start</summary>
+            <param name="state"></param>
+        </member>
+        <member name="M:SolarScience.SolarExperimentKmi.DeployExperiment">
+            <summary>If deploying an Experiment, check the booleans and act accordingly</summary>
+        </member>
+        <member name="M:SolarScience.SolarExperimentKmi.DeployAction(KSPActionParam)">
+            <summary>If doing an action, check the booleans and act accordingly</summary>
+            <param name="p"></param>
+        </member>
+        <member name="M:SolarScience.SolarExperimentStereo.DeployExperiment">
+            <summary>If deploying an Experiment, check the booleans and act accordingly</summary>
+        </member>
+    </members>
+</doc>
