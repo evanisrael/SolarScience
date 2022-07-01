@@ -42,8 +42,6 @@ Remember to Praise the Sun!
 
 ---
 
-![Hero Image][IMG:hero:0]
-
 ### Youtube review by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
 
 [![Kottabos reviews Dreamer](https://img.youtube.com/vi/qAIueuTfokc/0.jpg)](https://www.youtube.com/watch?v=qAIueuTfokc)
@@ -64,6 +62,8 @@ Remember to Praise the Sun!
 >* ***your translation here***
 >
 > HELP WANTED - See the [README in the Localization folder][lreadme] or the [Quickstart Guide][qstart] for instructions for adding or improving translations. [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
+
+<img src="https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/img/SolarSchienceHero0.png" alt="SolarScience Hero" width="50%" height="50%">
 
 ---
 
