@@ -179,15 +179,8 @@ namespace SolarScience
                                 new DialogGUIHorizontalLayout(
                                     ),
 
-<<<<<<< Updated upstream
                                 new DialogGUIButton(Localizer.Format("#autoLOC_149410"), // "close"
-=======
-<<<<<<< Updated upstream
-                                new DialogGUIButton(Localizer.Format("#autoLOC_149410"), // "close"
-=======
-                                new DialogGUIButton(Localizer.Format("#autoLOC_149410"), // "close"
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+
                                     delegate
                                     {
                                         isShowingWindow = false;
