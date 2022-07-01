@@ -40,7 +40,7 @@
 * closes #5 - English <us-en.cfg>
 * updates #4 - Localization - Master
 * Scrap Squad dictionary
-  * #SOL-closeBtn = close
+  * #SOL-closeBtn = #autoLOC_149410 // close
 
 ### License
 
@@ -67,16 +67,6 @@
 * Add missing information for earlier releases
 * closes #33 - Convert Changelog
 
-### Code
-
-* Recompile for KSP 1.12.3
-* Using .NET 4.6.1
-
-
-### Localization
-
-
-
 ### Status
 
 * Issues
@@ -85,20 +75,6 @@
   * closes# 24 - 1.3.0.0 Verify Legal Mumbo Jumbo
   * closes# 25 - 1.3.0.0 Update Documentation
   * closes# 26 - 1.3.0.0 Update Social Media
-
----
-
->>>>>>> Stashed changes
-## Version 1.2.0.0 - `<Praise Snoopy 20111!>`
->>>>>>> Stashed changes
-
-* 30 Jun 2020
-* Released for KSP 1.12.3
-
-### Code
-
-* Code
-
 
 ---
 
