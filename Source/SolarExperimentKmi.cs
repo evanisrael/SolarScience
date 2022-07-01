@@ -180,10 +180,10 @@ namespace SolarScience
                                     ),
 
 <<<<<<< Updated upstream
-                                new DialogGUIButton(Localizer.Format("#SOL-closeBtn"), // "close"
+                                new DialogGUIButton(Localizer.Format("#autoLOC_149410"), // "close"
 =======
 <<<<<<< Updated upstream
-                                new DialogGUIButton(Localizer.Format("#SolarScience_closeBtn"), // "close"
+                                new DialogGUIButton(Localizer.Format("#autoLOC_149410"), // "close"
 =======
                                 new DialogGUIButton(Localizer.Format("#autoLOC_149410"), // "close"
 >>>>>>> Stashed changes
