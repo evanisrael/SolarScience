@@ -126,7 +126,12 @@ or [![CKAN][CKAN:img]][CKAN:url]
 
 ##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
 
-#### Original (0) - Author: [`zer0Kerbal`][zer0Kerbal]
+#### Original (2) - Author: [`zer0Kerbal`][zer0Kerbal]
+
+> Forum: [Thread][MOD:2:thread] - Download: [CurseForge][MOD:2:dnload] - Source: [GitHub][MOD:2:source]  
+> License: [![License][LIC:2:shd]][LIC:2:url] ![License][LIC:2:log]
+
+#### Original (1) - Author: [`Snoopy20111`][Snoopy20111]
 
 > Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [GitHub][MOD:1:source]  
 > License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
@@ -169,14 +174,22 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
 [MOD:1:dnload]: https://www.curseforge.com/kerbal/ksp-mods/SolarScience "CurseForge"
 
+[MOD:2:source]: https://github.com/zer0Kerbal/SolarScience "GitHub"
+[MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
+[MOD:2:dnload]: https://www.curseforge.com/kerbal/ksp-mods/SolarScience "CurseForge"
+
 <!--- license provenance -->
-[LIC:0:url]: https://mit-license.org/ "Expat-MIT"
-[LIC:0:log]: https://i.postimg.cc/bvjfsMP5/MIT-17x17.png "Expat-MIT"
-[LIC:0:shd]: https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=black&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT"
+[LIC:0:url]: http://creativecommons.org/licenses/by-nc/4.0/ "CC BY-NC 4.0"
+[LIC:0:log]: https://licensebuttons.net/i/l/by-nc/transparent/33/66/99/76x22.png "CC BY-NC 4.0"
+[LIC:0:shd]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC 4.0"
 
 [LIC:1:url]: https://mit-license.org/ "Expat-MIT"
 [LIC:1:log]: https://i.postimg.cc/bvjfsMP5/MIT-17x17.png "Expat-MIT"
 [LIC:1:shd]: https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=black&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT"
+
+[LIC:2:url]: https://mit-license.org/ "Expat-MIT"
+[LIC:2:log]: https://i.postimg.cc/bvjfsMP5/MIT-17x17.png "Expat-MIT"
+[LIC:2:shd]: https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=black&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT"
 
 [LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPL-3.0"  
 [LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-3.0"
