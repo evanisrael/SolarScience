@@ -10,9 +10,27 @@
 | spacedock  | (https://spacedock.info/mod/811)                                  |
 | ckan       | SolarScience                                                      |
 
+## Version 1.3.0.0 - `<Let the Sun Shine on KSP`>
+
+* 30 Jun 2020
+* Released for KSP 1.12.3
+
+### Code
+
+* Code
+  * recompile for KSP 1.12.3
+  * using .net 4.6.1
+
+### Status
+
+* Issues
+  * 
+
+---
+
 ## Version 1.2.0.0 - `<Praise Snoopy 20111!>`
 
-* Released for KSP 1.12.3
+* Released for KSP 1.7.3
 * 18 Mar 2020
 
 ### Adoption by zer0Kerbal
@@ -68,7 +86,7 @@
 
 ---
 
-### Version = 1.1.1
+### Version = 1.1.1.0
 
 * Released on 2020-03-17
 * for Kerbal Space Program 1.9.1
