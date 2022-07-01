@@ -22,7 +22,8 @@ based upon work by LisiasT -->
 
 ## Trademarks <i class="fa-solid fa-trademark fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: black" ></i>
 
-* "Field Training Lab" is trademark of Efour
+* "Solar Science" is trademark of Snoopy20111
+* "(SOL)" is trademark of zer0Kerbal
 * Kerbal Simple Co is a trademark of zer0Kerbal
 * KerbSimCo is a trademark of zer0Kerbal
 * zer0Kerbal is trademark of zer0kerbal
