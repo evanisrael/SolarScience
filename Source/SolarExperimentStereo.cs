@@ -26,9 +26,8 @@
 
 using System;
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
-//using KSP.Localization;
+using KSP.Localization;
 
 namespace SolarScience
 {
@@ -231,7 +230,7 @@ namespace SolarScience
             base.OnStart(state);
         }
 
-        // If deploying an Experiment, check the booleans and act accordingly
+        /// <summary>If deploying an Experiment, check the booleans and act accordingly</summary>
         public void DeployExperiment()
         {
             if (CheckBody() && CheckAngularVelocity() && CheckDirection())
