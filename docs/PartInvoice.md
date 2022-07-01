@@ -27,7 +27,7 @@ This add-on adds nine (9) resource parts
   <img src="https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/GameData/SolarScience/Parts/%40thumbs/KMI_icon.png" alt="KMI" width="25%" height="25%" />
   
 * STEREO
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/GameData/SolarScience/Parts/%40thumbs/STERIO_icon.png" alt="STEREO" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/GameData/SolarScience/Parts/%40thumbs/STEREO_icon.png" alt="STEREO" width="25%" height="25%" />
 
 ---
 
