@@ -1,11 +1,33 @@
-//Make sure we're using all available stuff
+/* Solar Science (SOL)
+ * Solar Science is an add-on by Logan Hardin, also known as Snoopy 20111, for Kerbal Space Program by Squad.
+ * "I would prefer to be referred to as Snoopy 20111 in any attributions. Let's be honest, I'm not going to track you down, I would just appreciate it."
+ * Praise the Sun
+ 
+ * Copyright (C) 2015, 2016 Snoopy 20111 (Logan Hardin)
+ * Copyright (C) 2019, 2022 zer0Kerbal (zer0Kerbal at hotmail dot com)
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+
 using System;
 using UnityEngine;
 using KSP.Localization;
 
 namespace PraiseTheSun
 {
-//Inherit ModuleScienceExperiment stuff
+    /// <summary>Inherit ModuleScienceExperiment stuff</summary>
     public class SolarExperiment : ModuleScienceExperiment
     {
 
@@ -21,7 +43,7 @@ namespace PraiseTheSun
             {
                 Debug.Log("Triggered checkBody, returned false");
 //                "This experiment only operates closely around Kerbol (the Sun) !"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_000")", 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-000")", 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
@@ -38,7 +60,7 @@ namespace PraiseTheSun
             {
                 Debug.Log("Triggered checkDirection, returned false");
                 // "Point it towards Kerbol! You can't take the pictures if you aren't looking at it!"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_001"), 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-001"), 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
@@ -55,7 +77,7 @@ namespace PraiseTheSun
             {
                 Debug.Log("Triggered checkAngularVelocity, returned false");
                 // "Steady your craft! You'll make the pictures blurry!"
-                ScreenMessages.PostScreenMessage(Localizer.Format("#SolarScience_002", 3, ScreenMessageStyle.UPPER_CENTER);
+                ScreenMessages.PostScreenMessage(Localizer.Format("#SOL-002", 3, ScreenMessageStyle.UPPER_CENTER);
                 return false;
             }
         }
