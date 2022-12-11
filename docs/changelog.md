@@ -2,10 +2,8 @@
 permalink: /Changelog.html
 title: The Change Log
 description: The Opening Credits, and the closing credits, plus the first of two (or is three) end credit scenes
-# layout: bare
 tags: changes,changelog,change-log,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
 <!-- 
 hdr-changelog.md v1.0.0.0
 Solar Science (SOL)
@@ -24,12 +22,74 @@ CC BY-ND 4.0 by zer0Kerbal
 | spacedock  | (https://spacedock.info/mod/811)                                  |
 | ckan       | SolarScience                                                      |
 
+## Version 1.3.1.0-release - `<Heliosphere`> edition
+
+* Released
+  * 10 Dec 2022
+  * for Kerbal Space Program 1.12.4
+  * by zer0Kerbal
+
+## Summary
+
+* compile against 1.12.4
+* backend refresh
+* documentation refresh
+* convert/enlarge images
+
+### Changes
+
+### Parts 1.3.1.0
+
+* Lint/organization
+* file headers
+* Add
+  * cargopart
+  * dragcubes
+
+### Code 1.3.1.0
+
+* Code
+  * recompile for KSP 1.12.4
+  * using .net 4.6.1
+  * remove
+    * [InstallChecker.cs]
+    * [AssemblyVersion.tt]
+    * [Log.cs]
+  * update [Version.tt]
+
+### Localization 1.3.1.0
+
+* Lint/update
+  * <us-en.cfg> v1.1.0.0
+* updates #5 - English <us-en.cfg>
+* updates #4 - Localization - Master
+
+### docs/ 1.3.1.0
+
+* Update
+* Add
+  * <Marketing.md>
+  * <PartsCatalog.md>
+* Delete
+  * <PartInvoice.md>
+
+### Status 1.3.1.0
+
+* Requests
+  * asked kind folks of Kerbalism to create <Kerbalism.cfg>
+  * updates #22 - Kerbalism
+* Issues
+  * closes #32 - Solar Science (SOL) 1.3.1.0-release `<Heliosphere>` edition
+  * closes #33 - 1.3.1.0 Additional Tasks
+
+---
+
 ## Version 1.3.0.0 - `<Let the Sun Shine on KSP`>
 
 * 30 Jun 2020
 * Released for KSP 1.12.3
 
-### Code
+### Code 1.3.0.0
 
 * Code
   * recompile for KSP 1.12.3
@@ -46,7 +106,7 @@ CC BY-ND 4.0 by zer0Kerbal
     * string Open_SFX
     * Texture2D blackImage;
 
-### Localization
+### Localization 1.3.0.0
 
 * Add
   * [readme.md] v2.1.2.0
@@ -62,7 +122,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * was Expat/MIT
 * closes #29 - Update License to GPLv3
 
-### docs/
+### docs/ 1.3.0.0
 
 * Add
   * [Attribution.md] v1.0.6.0
@@ -81,7 +141,7 @@ CC BY-ND 4.0 by zer0Kerbal
 * Add missing information for earlier releases
 * closes #28 - Convert Changelog
 
-### Status
+### Status 1.3.0.0
 
 * Issues
   * closes #6 - ImgBot
