@@ -42,7 +42,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="$(K112)Assembly-CSharp.dll">
-    <!-- <Reference Include="K:\112\KSP_x64_Data\Managed\Assembly-CSharp.dll"> -->
       <Private>False</Private>
     </Reference>
     <Reference Include="$(K112)UnityEngine.dll">
