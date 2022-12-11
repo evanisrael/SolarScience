@@ -15,7 +15,7 @@ updated: 24 Jun 2022 -->
 
 Salutations! May the sunlight always be upon you!
 
-This science addon that adds two Deep Space Solar Experiments (STEREO and SOHO) to Kerbal Space Program.
+This science addon adds two Deep Space Solar Experiments (STEREO and SOHO) to Kerbal Space Program.
 
 
 
