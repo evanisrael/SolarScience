@@ -10,7 +10,7 @@
 | spacedock  | (https://spacedock.info/mod/811)                                  |
 | ckan       | SolarScience                                                      |
 
-## Version 1.3.1.0-release - `<Heliosphere`> edition
+## Version 1.3.1.0-release - `<Heliosphere>` edition
 
 * Released
   * 10 Dec 2022
@@ -149,7 +149,7 @@
   
 ### Initial release
 
-### License
+### License 1.2.0.0
 
 * license changed by original author to MIT (thank you @Snoopy 20111 )
 
