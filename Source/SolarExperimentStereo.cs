@@ -199,18 +199,18 @@ namespace SolarScience
             }
         }
 
+        [Obsolete]
         private IEnumerator LoadThisFile()
         {
-            using (WWW www_Stereo = new WWW(SunImageURL))
-            {
-                yield return www_Stereo;
-                www_Stereo.LoadImageIntoTexture(imageOfSun);
-            }
+            using WWW www_Stereo = new(SunImageURL);
+            yield return www_Stereo;
+            www_Stereo.LoadImageIntoTexture(imageOfSun);
         }
 
+        [Obsolete]
         private IEnumerator CheckInternetConnection()
         {
-            WWW www = new WWW(SunImageURL);
+            WWW www = new(SunImageURL);
             yield return www;
 
             if (www.error != null)
