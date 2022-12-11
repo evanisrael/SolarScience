@@ -1,5 +1,5 @@
 {
-    "NAME"           : "Solar Science (SOL)",
+    "NAME"           : "Solar Science (SOL) by Snoopy20111",
     "URL"            : "https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/SolarScience.version",
     "DOWNLOAD"       : "https://github.com/zer0Kerbal/SolarScience/releases/latest",
     "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/SolarScience/master/Changelog.md",
@@ -13,14 +13,14 @@
     {
         "MAJOR" : 1,
         "MINOR" : 3,
-        "PATCH" : 0,
+        "PATCH" : 1,
         "BUILD" : 0
     },
     "KSP_VERSION" :
     {
         "MAJOR" : 1,
         "MINOR" : 12,
-        "PATCH" : 3
+        "PATCH" : 4
     },
     "KSP_VERSION_MIN" :
     {

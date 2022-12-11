@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>SolarScience</AssemblyName>
-    <!-- <RootNamespace>SolarScience</RootNamespace> -->
+    <RootNamespace>SolarScience</RootNamespace>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -40,23 +40,20 @@
     <ConsolePause>false</ConsolePause>
     <DocumentationFile>..\docs\Code\Code.xml</DocumentationFile>
   </PropertyGroup>
-  <PropertyGroup>
-    <RootNamespace>SolarScience</RootNamespace>
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="K:\112\KSP_x64_Data\Managed\Assembly-CSharp.dll">
+    <Reference Include="$(K112)Assembly-CSharp.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\112\KSP_x64_Data\Managed\UnityEngine.dll">
+    <Reference Include="$(K112)UnityEngine.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\112\KSP_x64_Data\Managed\UnityEngine.AudioModule.dll">
+    <Reference Include="$(K112)UnityEngine.AudioModule.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\112\KSP_x64_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll">
+    <Reference Include="$(K112)UnityEngine.UnityWebRequestWWWModule.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\112\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll">
+    <Reference Include="$(K112)UnityEngine.CoreModule.dll">
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -101,8 +98,8 @@ IF "%25K112%25"=="" (
 	PAUSE
 	rem GOTO DONE
 )
-start /D $(ProjectDir)..\  /WAIT _deploy.bat  $(TargetDir) $(TargetFileName)
-if $(ConfigurationName) == Release start /D $(ProjectDir)..\   /WAIT _buildRelease.bat $(TargetDir) $(TargetFileName)
+start /D $(ProjectDir)..\  /WAIT _addonDeploy.bat $(TargetDir) $(TargetFileName)
+if $(ConfigurationName) == Release start /D $(ProjectDir)..\   /WAIT _addonRelease.bat $(TargetDir) $(TargetFileName)
 del $(TargetDir)\*.tmp
 :DONE
   </PostBuildEvent>
