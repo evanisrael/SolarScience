@@ -98,8 +98,8 @@ IF "%25K112%25"=="" (
 	PAUSE
 	rem GOTO DONE
 )
-start /D $(ProjectDir)..\  /WAIT _addonDeploy.bat
-if $(ConfigurationName) == Release start /D $(ProjectDir)..\   /WAIT _addonRelease.bat
+start /D $(ProjectDir)..\  /WAIT _addonDeploy.bat $(TargetDir) $(TargetFileName)
+if $(ConfigurationName) == Release start /D $(ProjectDir)..\   /WAIT _addonRelease.bat $(TargetDir) $(TargetFileName)
 del $(TargetDir)\*.tmp
 :DONE
   </PostBuildEvent>
